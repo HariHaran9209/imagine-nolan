@@ -1,0 +1,1035 @@
+.card1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card1 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card1:hover .card-text {
+    opacity: 1;
+}
+
+.card1:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card2 {
+    position: absolute;
+    top: 920px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card2 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card2:hover .card-text {
+    opacity: 1;
+}
+
+.card2:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+
+.card3 {
+    position: absolute;
+    top: 920px;
+    left: 700px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card3 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card3:hover .card-text {
+    opacity: 1;
+}
+
+.card3:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card4 {
+    position: absolute;
+    top: 920px;
+    left: 1045px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card4 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card4:hover .card-text {
+    opacity: 1;
+}
+
+.card4:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card5 {
+    position: absolute;
+    top: 1150px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card5 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card5:hover .card-text {
+    opacity: 1;
+}
+
+.card5:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+
+.card6 {
+    position: absolute;
+    top: 1150px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card6 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card6:hover .card-text {
+    opacity: 1;
+}
+
+.card6:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+
+.card7 {
+    position: absolute;
+    top: 1150px;
+    left: 700px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card7 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card7:hover .card-text {
+    opacity: 1;
+}
+
+.card7:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card8 {
+    position: absolute;
+    top: 1150px;
+    left: 1045px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card8 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card8:hover .card-text {
+    opacity: 1;
+}
+
+.card8:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+
+.card9 {
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card9 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card9:hover .card-text {
+    opacity: 1;
+}
+
+.card9:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card10 {
+    position: absolute;
+    top: 1400px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card10 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card10:hover .card-text {
+    opacity: 1;
+}
+
+.card10:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card11 {
+    position: absolute;
+    top: 1400px;
+    left: 700px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card11 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card11:hover .card-text {
+    opacity: 1;
+}
+
+.card11:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card12 {
+    position: absolute;
+    top: 1400px;
+    left: 1045px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card12 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card12 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card12:hover .card-text {
+    opacity: 1;
+}
+
+.card12:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card13 {
+    position: absolute;
+    top: 1640px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card13 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card13 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card13:hover .card-text {
+    opacity: 1;
+}
+
+.card13:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card14 {
+    position: absolute;
+    top: 1640px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card14 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card14 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card14:hover .card-text {
+    opacity: 1;
+}
+
+.card14:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card15 {
+    position: absolute;
+    top: 1640px;
+    left: 700px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card15 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card15 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card15:hover .card-text {
+    opacity: 1;
+}
+
+.card15:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card16 {
+    position: absolute;
+    top: 1640px;
+    left: 1045px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card16 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card16 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card16:hover .card-text {
+    opacity: 1;
+}
+
+.card16:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card17 {
+    position: absolute;
+    top: 1890px;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card17 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card17 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card17:hover .card-text {
+    opacity: 1;
+}
+
+.card17:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card18 {
+    position: absolute;
+    top: 1890px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card18 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card18 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card18:hover .card-text {
+    opacity: 1;
+}
+
+.card18:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card19 {
+    position: absolute;
+    top: 1890px;
+    left: 700px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card19 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card19 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card19:hover .card-text {
+    opacity: 1;
+}
+
+.card19:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+.card20 {
+    position: absolute;
+    top: 1890px;
+    left: 1045px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.card20 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Text styling */
+.card20 .card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover effect */
+.card20:hover .card-text {
+    opacity: 1;
+}
+
+.card20:hover img {
+    transform: scale(1.1); /* Slight zoom on the image */
+}
+
+
+.search-container {
+    white-space: nowrap; /* Prevents the button from wrapping to the next line */
+}
+
+.search-container input,
+.search-container button {
+    display: inline-block;
+    vertical-align: middle; /* Aligns them vertically in the middle */
+    font-size: 16px;
+}
+
+.search-container input {
+    padding: 8px;
+    width: 250px; /* Set width for the input box */
+}
+
+.search-container button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.search-results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* Highlight the search term */
+.highlight {
+    background-color: red;
+}
